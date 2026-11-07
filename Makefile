@@ -4,10 +4,10 @@ install:
 brain-games:
 	uv run brain-games
 
-build:
+build: #Сборка пакета 
 	uv build
 
-package-install:
+package-install: #Установка пакета 
 	uv tool install dist/*.whl
 
 
