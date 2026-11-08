@@ -32,7 +32,9 @@ Let's try again, {name}!""")
 Let's try again, {name}!""")
                 break
 
-    print(f'Congratulations, {name}!')
+
+    if sum == 3:
+        print(f'Congratulations, {name}!')
 
 if __name__ == "__main__":
     main()
