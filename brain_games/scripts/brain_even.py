@@ -14,7 +14,7 @@ def main():
     while sum < 3:
         ask = round(random.uniform(1, 100))
         print(f'Question: {ask}')
-        answer = prompt.string('Your answer: ').strip()
+        answer = prompt.string('Your answer: ').strip().lower()
         if ask % 2 == 0:
             if answer == 'yes':
                 print('Correct!')
