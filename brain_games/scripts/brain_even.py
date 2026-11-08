@@ -1,5 +1,7 @@
-import prompt
 import random
+
+import prompt
+
 
 def main():
     sum = 0
@@ -13,7 +15,6 @@ def main():
         ask = round(random.uniform(1, 100))
         print(f'Question: {ask}')
         answer = prompt.string('Your answer: ')
-
         if ask % 2 == 0:
             if answer == 'yes':
                 print('Correct!')
@@ -32,9 +33,9 @@ Let's try again, {name}!""")
 Let's try again, {name}!""")
                 break
 
-
     if sum == 3:
         print(f'Congratulations, {name}!')
+
 
 if __name__ == "__main__":
     main()
