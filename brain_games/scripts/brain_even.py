@@ -3,22 +3,24 @@ import random
 
 def main():
     sum = 0
+
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    ask = round(random.uniform(1, 100))
-    print(f'Question: {ask}')
-    answer = prompt.string('Your answer: ')
 
     while sum < 3:
+        ask = round(random.uniform(1, 100))
+        print(f'Question: {ask}')
+        answer = prompt.string('Your answer: ')
+
         if ask % 2 == 0:
             if answer == 'yes':
                 print('Correct!')
                 sum += 1
             else:
                 print(f"""'yes' is wrong answer ;(. Correct answer was 'no'.
-                Let's try again, {name}!""")
+Let's try again, {name}!""")
                 break
 
         if ask % 2 != 0:
@@ -27,7 +29,7 @@ def main():
                 sum += 1
             else:
                 print(f"""'no' is wrong answer ;(. Correct answer was 'yes'.
-                Let's try again, {name}!""")
+Let's try again, {name}!""")
                 break
 
     print(f'Congratulations, {name}!')
