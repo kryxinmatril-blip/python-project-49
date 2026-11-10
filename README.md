@@ -23,7 +23,7 @@ cd python-project-49
 ## Использование
 
 Для установки пакетов проекта воспользоваться командой make install. Данная команда заложена через Makefile.
-
+- BRAIN-EVEN
 Демонстрация установки пакета:
 https://asciinema.org/a/yybGlchSBn9lHYk0
 
@@ -41,6 +41,20 @@ https://asciinema.org/a/Bjic0zhpQweOeOpA
 Демонстрация проигрыша в игре:
 https://asciinema.org/a/lblKTsdJNbSzzh1q
 
+- BRAIN-CALC
+В случае, если пользователь ввел верный ответ, нужно отобразить следующее:
+'Correct!'
+Пользователь должен дать правильный ответ на три вопроса подряд. После успешной выводится селудущее сообщение:
+'Congratulations, <Имя пользователя>!'
+В случае, если пользователь даст неверный ответ, выводится сообщение:
+'<Ответ пользователя>' is wrong answer ;(. Correct answer was '<Верный ответ>'.
+Let's try again, <Имя пользователя>!
+
+Демонстрация победы в игре:
+https://asciinema.org/a/mRfrojTrX6NRncSo
+
+Демонстрация проигрыша в игре:
+https://asciinema.org/a/hq7JWAxFJMwIvlym
 ---
 
 <details>
