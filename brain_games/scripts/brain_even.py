@@ -20,7 +20,7 @@ def main():
                 print('Correct!')
                 sum += 1
             else:
-                print(f"""'yes' is wrong answer ;(. Correct answer was 'no'.
+                print(f"""'no' is wrong answer ;(. Correct answer was 'yes'.
 Let's try again, {name}!""")
                 break
 
@@ -29,7 +29,7 @@ Let's try again, {name}!""")
                 print('Correct!')
                 sum += 1
             else:
-                print(f"""'no' is wrong answer ;(. Correct answer was 'yes'.
+                print(f"""'yes' is wrong answer ;(. Correct answer was 'no'.
 Let's try again, {name}!""")
                 break
 
