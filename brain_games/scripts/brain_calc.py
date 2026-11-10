@@ -15,10 +15,10 @@ def main():
     while sum < 3:
         number1 = round(random.uniform(0, 10))
         number2 = round(random.uniform(0, 10))
-        rand_operation = round(random.sample(0, 2))
+        rand_operation = round(random.uniform(0, 2))
         print(f'Question: {number1} {calc[rand_operation]} {number2}')
         answer = prompt.string('Your answer: ')
-        corect_answer = eval(f'{number1} {calc[rand_operation]} {number2}')
+        corect_answer = str(eval(f'{number1} {calc[rand_operation]} {number2}'))
 
         if answer == corect_answer:
             print('Correct!')
