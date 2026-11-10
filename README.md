@@ -62,6 +62,7 @@ https://asciinema.org/a/mRfrojTrX6NRncSo
 
 Демонстрация проигрыша в игре:
 https://asciinema.org/a/hq7JWAxFJMwIvlym
+
 ---
 
 <details>
