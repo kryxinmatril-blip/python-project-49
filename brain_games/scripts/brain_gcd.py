@@ -14,17 +14,17 @@ def main():
     while sum < 3:
         a = round(random.uniform(0, 100))
         b = round(random.uniform(0, 100))
-        print(f'Question: {number1} {number2}')
+        print(f'Question: {a} {b}')
         answer = prompt.string('Your answer: ')
+
         if b == 0:
             corect_answer = a
-        elif b != 0:
+        else:
             while b != 0:
-                a = b
-                b = a % b
-                if b == 0:
-                   corect_answer = a
-        if answer == corect_answer:
+                a, b = b, a % b
+            corect_answer = a
+
+        if answer == str(corect_answer):
             print('Correct!')
             sum += 1
         else:
