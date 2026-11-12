@@ -64,6 +64,7 @@ https://asciinema.org/a/mRfrojTrX6NRncSo
 https://asciinema.org/a/hq7JWAxFJMwIvlym
 
 - BRAIN_GCD
+
 В случае, если пользователь ввел верный ответ, нужно отобразить следующее:
 'Correct!'
 
