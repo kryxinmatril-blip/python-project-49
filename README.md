@@ -81,6 +81,24 @@ https://asciinema.org/a/5rzpwLGYwqQscuaM
 Демонстрация проигрыша в игре:
 https://asciinema.org/a/I0lpNO5dy4nhu7pj
 
+- BRAIN-PROGRESSION
+
+В случае, если пользователь ввел верный ответ, нужно отобразить следующее:
+'Correct!'
+
+Пользователь должен дать правильный ответ на три вопроса подряд. После успешной выводится селудущее сообщение:
+'Congratulations, <Имя пользователя>!'
+
+В случае, если пользователь даст неверный ответ, выводится сообщение:
+'<Ответ пользователя>' is wrong answer ;(. Correct answer was '<Верный ответ>'.
+Let's try again, <Имя пользователя>!
+
+Демонстрация победы в игре:
+https://asciinema.org/a/mUuzc7envStdeSu8
+
+Демонстрация проигрыша в игре:
+https://asciinema.org/a/6BddIs7TAAzwLc0v
+
 ---
 
 <details>
