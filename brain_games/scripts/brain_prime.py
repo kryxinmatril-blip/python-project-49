@@ -16,7 +16,7 @@ def main():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(Answer "yes" if given number is prime. Otherwise answer "no".)
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     while sum < 3:
         ask = round(random.uniform(2, 100))
@@ -26,7 +26,7 @@ def main():
             print('Correct!')
             sum += 1
         else:
-            print(f"""'no' is wrong answer ;(. Correct answer was 'yes'.
+            print(f"""'{answer}' is wrong answer ;(. Correct answer was '{simple_number(ask)}'.
 Let's try again, {name}!""")
             break
 
