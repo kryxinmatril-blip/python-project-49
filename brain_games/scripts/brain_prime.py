@@ -26,9 +26,9 @@ def main():
             print('Correct!')
             sum += 1
         else:
-                print(f"""'no' is wrong answer ;(. Correct answer was 'yes'.
+            print(f"""'no' is wrong answer ;(. Correct answer was 'yes'.
 Let's try again, {name}!""")
-                break
+            break
 
     if sum == 3:
         print(f'Congratulations, {name}!')
